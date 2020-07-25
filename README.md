@@ -1,27 +1,20 @@
 # go-hello 
 
-Simple Hello Word in Golang using docker to create an image.
+Simple function in Golang using docker to create an small image.
 
-
-
-## Run
-```
-go run hello.go
-```
-
-## Build Docker
+## Docker build
 
 ```
-docker build -t yourLogin/go-hello . 
+docker build -t yourLogin/go-rocks . 
 ```
 
-## Run Docker
+## Docker Run
 ```
-docker run  yourLogin/go-hello
+docker run  yourLogin/go-rocks
 ```
 
 ## Push to Docker Hub
 ```
 docker login
 
-docker push yourLogin/go-hello
+docker push yourLogin/go-rocks
